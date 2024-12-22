@@ -5,7 +5,7 @@ from ultralytics import YOLO
 # Load the model
 model = YOLO('yolov8n.pt')
 
-VIDEO_PATH = "./disco.mp4"
+VIDEO_PATH = "./yourvideo path.mp4"
 RESULT_PATH = "results.mp4"
 if __name__ == '__main__':
     capture = cv2.VideoCapture(VIDEO_PATH)
